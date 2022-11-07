@@ -2236,6 +2236,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bfe0fcdb-732d-46ba-ab8f-177340842a99)
   )
+  (text "output side R/G/B/CHS/VS may need Rs to reduce noise"
+    (at 213.36 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d2ff2d51-abf1-4908-be73-221b6eecfda2)
+  )
 
   (label "VSYNC" (at 29.21 43.18 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3266,10 +3271,10 @@
     )
     (pin "CC1" (uuid 51508cf9-df71-44f9-9995-348c10e440f1))
     (pin "CC2" (uuid bee21d56-625d-4d01-b3fc-b40b3576e827))
-    (pin "GND" (uuid eb115287-bd6f-47f1-87cf-a73ad31a60e7))
-    (pin "GND" (uuid eb115287-bd6f-47f1-87cf-a73ad31a60e7))
-    (pin "VBUS" (uuid fc91071d-d6cb-4a36-b921-126284c98cab))
-    (pin "VBUS" (uuid fc91071d-d6cb-4a36-b921-126284c98cab))
+    (pin "GND" (uuid eb115287-bd6f-47f1-87cf-a73ad31a60e8))
+    (pin "GND" (uuid eb115287-bd6f-47f1-87cf-a73ad31a60e8))
+    (pin "VBUS" (uuid fc91071d-d6cb-4a36-b921-126284c98cac))
+    (pin "VBUS" (uuid fc91071d-d6cb-4a36-b921-126284c98cac))
   )
 
   (symbol (lib_id "power:VCC") (at 29.21 99.06 90) (unit 1)
