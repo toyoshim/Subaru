@@ -3242,7 +3242,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0fe151f6-fb86-45f5-b30d-1bca1584bc2d)
     (property "Reference" "C8" (id 0) (at 165.481 66.5312 90))
-    (property "Value" "C_Polarized" (id 1) (at 165.481 69.0681 90))
+    (property "Value" "220u" (id 1) (at 165.481 69.0681 90))
     (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 170.18 71.4248 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3266,10 +3266,10 @@
     )
     (pin "CC1" (uuid 51508cf9-df71-44f9-9995-348c10e440f1))
     (pin "CC2" (uuid bee21d56-625d-4d01-b3fc-b40b3576e827))
-    (pin "GND" (uuid eb115287-bd6f-47f1-87cf-a73ad31a60e6))
-    (pin "GND" (uuid eb115287-bd6f-47f1-87cf-a73ad31a60e6))
-    (pin "VBUS" (uuid fc91071d-d6cb-4a36-b921-126284c98caa))
-    (pin "VBUS" (uuid fc91071d-d6cb-4a36-b921-126284c98caa))
+    (pin "GND" (uuid eb115287-bd6f-47f1-87cf-a73ad31a60e7))
+    (pin "GND" (uuid eb115287-bd6f-47f1-87cf-a73ad31a60e7))
+    (pin "VBUS" (uuid fc91071d-d6cb-4a36-b921-126284c98cab))
+    (pin "VBUS" (uuid fc91071d-d6cb-4a36-b921-126284c98cab))
   )
 
   (symbol (lib_id "power:VCC") (at 29.21 99.06 90) (unit 1)
@@ -3678,7 +3678,7 @@
       (reference "C7") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/0fe151f6-fb86-45f5-b30d-1bca1584bc2d"
-      (reference "C8") (unit 1) (value "C_Polarized") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C8") (unit 1) (value "220u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-00005eaafd00"
       (reference "C9") (unit 1) (value "0.47u") (footprint "Capacitor_SMD:C_0603_1608Metric")
